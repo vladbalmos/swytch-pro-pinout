@@ -17,7 +17,7 @@ Front view, pin 1 is left most, pin 12 is right most.
 | 7          | Motor phase *2             
 | 8          | Motor phase *2            
 | 9          | Brake sensor signal    
-| 10         | PASS sensor signal    
+| 10         | PAS sensor signal    
 | 11         | Ground               
 | 12         | Throttle sensor signal  
 
@@ -54,7 +54,7 @@ Pin 8 is in line with the aligning arrow on the connector
  9    11
 </pre>
 
-#### PASS sensor (female - orange)
+#### PAS sensor (female - orange)
 
 <pre>
     ⮟
@@ -86,5 +86,5 @@ Pin 8 is in line with the aligning arrow on the connector
 | 9          | +3V when unconnected, 0V when brakes engaged
 | 10         | +3.3V
 | 11         | Ground               
-| 12         | 0 ... ~+4V
+| 12         | 0 ... ~+4V, 0V when no throttle connected
 
