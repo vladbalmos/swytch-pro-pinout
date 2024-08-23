@@ -36,7 +36,6 @@ The <strong>⮟</strong> character indicates the connector guide pin / keying fe
 
 #### Motor (female - black)
 Pin 8 is in line with the aligning arrow on the connector
-
 <pre>
      ⮟
      8
@@ -46,6 +45,23 @@ Pin 8 is in line with the aligning arrow on the connector
      7
 </pre>
 
+| Pin Number | Description  
+|------------|-----------------------
+| 8          | Motor phase *   
+| 2          | +5V rail   
+| 3          | Motor HALL sensor signal   
+| 5          | Motor HALL sensor signal   
+| 7          | Motor phase *   
+| 4          | Motor HALL sensor signal   
+| 6          | Motor phase *   
+| 1          | Motor HALL sensor signal   
+| 11         | Ground   
+
+<small>
+* - Not sure about the phase ordering
+</small>
+
+
 #### Brake sensors (female - blue)
 
 <pre>
@@ -53,6 +69,13 @@ Pin 8 is in line with the aligning arrow on the connector
 -1     2
  9    11
 </pre>
+
+| Pin Number | Description  
+|------------|-----------------------
+| -1         | Not connected
+| 9          | Sensor signal
+| 11         | Ground
+| 2          | +5V rail
 
 #### PAS sensor (female - orange)
 
@@ -62,6 +85,11 @@ Pin 8 is in line with the aligning arrow on the connector
     11   
 </pre>
 
+| Pin Number | Description  
+|------------|-----------------------
+| 2          | +5V rail
+| 11         | Ground
+| 10         | Sensor signal
 
 #### Throttle sensor (male - orange)
 
@@ -70,6 +98,12 @@ Pin 8 is in line with the aligning arrow on the connector
  2      12
     11   
 </pre>
+
+| Pin Number | Description  
+|------------|-----------------------
+| 2          | +5V rail
+| 11         | Ground
+| 12         | Sensor signal
 
 ### Voltages
 
@@ -88,3 +122,6 @@ Pin 8 is in line with the aligning arrow on the connector
 | 11         | Ground               
 | 12         | 0 ... ~+4V, 0V when no throttle connected
 
+
+## Connection map starting at the controller side and ending to the connectors out of the handlebar mount
+See the [connector-map.svg](./connector-map.svg) for a visual guide, the following is the text version. The pin numbering scheme is counter clockwise, pin 1 is left most starting from the connector keying feature (see the svg)
