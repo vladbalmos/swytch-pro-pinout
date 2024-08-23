@@ -124,4 +124,4 @@ Pin 8 is in line with the aligning arrow on the connector
 
 
 ## Connection map starting at the controller side and ending to the connectors out of the handlebar mount
-See the [connector-map.png](./connector-map.png) for a visual guide, the following is the text version. The pin numbering scheme is counter clockwise, pin 1 is left most starting from the connector keying feature (see the svg)
+See the [connector-map.png](./connector-map.png) for a visual guide. The pin numbering scheme is counter clockwise, pin 1 is left most starting from the connector keying feature
