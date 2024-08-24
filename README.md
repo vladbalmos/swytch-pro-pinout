@@ -8,23 +8,21 @@ Front view, pin 1 is left most, pin 12 is right most.
 
 | Pin Number | Description            
 |------------|----------------------------
-| 1          | Motor HALL sensor signal   
+| 1          | Motor temperature sensor signal   
 | 2          | +5V rail                  
 | 3          | Motor HALL sensor signal 
 | 4          | Motor HALL sensor signal 
-| 5          | Motor HALL sensor signal *1
-| 6          | Motor phase *2
-| 7          | Motor phase *2             
-| 8          | Motor phase *2            
+| 5          | Motor HALL sensor signal
+| 6          | Motor phase *
+| 7          | Motor phase *             
+| 8          | Motor phase *            
 | 9          | Brake sensor signal    
 | 10         | PAS sensor signal    
 | 11         | Ground               
 | 12         | Throttle sensor signal  
 
 <small>
-*1 - Not sure if it's an additional HALL sensor or something else but it is definetely motor related
-
-*2 - Not sure about the phase ordering
+* - Not sure about the phase ordering
 </small>
 
 
@@ -54,7 +52,7 @@ Pin 8 is in line with the aligning arrow on the connector
 | 7          | Motor phase *   
 | 4          | Motor HALL sensor signal   
 | 6          | Motor phase *   
-| 1          | Motor HALL sensor signal   
+| 1          | Motor temperature sensor signal
 | 11         | Ground   
 
 <small>
